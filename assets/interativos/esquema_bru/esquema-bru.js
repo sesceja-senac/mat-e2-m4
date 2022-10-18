@@ -45,7 +45,7 @@ var EsquemaDaBru = {
             let btsErrados = el.querySelectorAll('.alt-e');
             let feed_positivo = el.querySelector('.f-positivo');
             let feed_negativo = Array.from(el.querySelectorAll('.f-negativo'));
-            let original = false;
+            let original = true;
 
             if(el.querySelector('.feedbacks') == null){
                 original = true;

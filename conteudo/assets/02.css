@@ -1,0 +1,79 @@
+.pg2-bloco01{
+    background-image: url(../assets/02/bg1.png);
+    background-size: contain;
+    background-attachment: fixed;
+    padding-top: 90px;
+  
+}
+
+
+.pg2-bloco02{
+    position: relative;
+    background-image: url(../assets/02/bg2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 80px;
+  
+}
+
+.pg2-bloco01 .container{
+    padding-bottom: 80px;
+    background: transparent;
+}
+
+.pg2-bloco02 .container{
+    background-color: transparent;
+    color: white;
+}
+
+.pg2-bloco03 {
+    position: relative;
+    background-image: url(../assets/02/bg1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+
+}
+
+.pg2-bloco03 .container{
+    background: transparent;
+}
+
+.pg2-separador{
+    margin-top: -80px;
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.pg2-separador-02{
+
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.pg2-02{
+    position: absolute;
+    right: 2vw;
+    top: 0;
+    z-index: 3;
+}
+
+
+.pg2-bloco04{
+    position: relative;
+    background-image: url(../assets/02/bg4.png);
+    background-size: 100%;
+    background-attachment:scroll;
+    padding-bottom: 80px;
+    padding-top: 1px;
+    
+
+}
+.pg2-bloco04 .container{
+    background-color: transparent;
+}
