@@ -1,0 +1,187 @@
+.pagina3-bloco1{
+    background-image: url(../assets/03/bg1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pagina3-bloco1 .container{
+    background-color: transparent;
+}
+
+.bt-pg03-modal1, .bt-pg03-modal2{
+    width: 278px;
+    height: 143px;
+    border: 0;
+    background-size: contain;
+    background-position: center;
+}
+.bt-pg03-modal2{
+    width: 295px;
+    
+}
+
+
+.bt-pg03-modal1{
+    background-image: url(../assets/03/bt1.png);
+}
+.bt-pg03-modal1:hover{
+    background-image: url(../assets/03/bt1_hover.png);
+}
+
+.bt-pg03-modal2{
+    background-image: url(../assets/03/bt2.png);
+}
+.bt-pg03-modal2:hover{
+    background-image: url(../assets/03/bt2_hover.png);
+}
+
+.pg3-div1{
+    margin-top: -80px;
+    margin-bottom: -80px;
+}
+
+.pagina3-bloco2{
+    padding-top: 80px;
+    background-image: url(../assets/03/bg2.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1920px;
+    padding-bottom: 80px;
+}
+.pagina3-bloco2 .container{
+    background-color: transparent;
+}
+
+.pagina3-bloco3{
+    padding-top: 80px;
+    background-image: url(../assets/03/bg3.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 2000px;
+    padding-bottom: 80px;
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
+}
+
+.pagina3-bloco3 .container{
+    background-color: transparent;
+}
+
+.pagina3-bloco4{
+    padding-top: 80px;
+    background-image: url(../assets/03/bg4.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 2000px;
+    padding-bottom: 80px;
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
+}
+
+.pagina3-bloco4 .container{
+    background-color: transparent;
+}
+
+.caixa-video{
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 20px;
+}
+
+.caixa-video .youtube-pl{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+.pagina3-bloco5{
+    padding-top: 80px;
+    background-image: url(../assets/03/bg1.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 2000px;
+    padding-bottom: 80px;
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
+}
+
+.pagina3-bloco5 .container{
+    background-color: transparent;
+}
+
+.pg3-formula{
+    font-size: 1.6rem;
+    font-weight: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, .4);
+    background-color: white;
+    max-width: 280px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.pg3-formula-verde{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, .4);
+    background-color: #004F53;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    
+}
+.pg3-formula-verde p{
+    font-size: inherit;
+    margin-bottom: 4px;
+}
+
+.legenda-formula{
+    max-width: 280px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    /*background-color: rgba(255, 255, 255, .8);*/
+}
+
+.text-red{
+    color: red;
+}
+
+.l-none{
+    list-style: none;
+}
+
+.pagina3-bloco6{
+    padding-top: 80px;
+    background-image: url(../assets/03/bg6.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 2000px;
+    padding-bottom: 80px;
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
+}
+.pagina3-bloco6 .container{
+    background-color: transparent;
+}
+
+.pagina3-bloco7{
+    padding-top: 80px;
+    background-image: url(../assets/03/bg7.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 2000px;
+    padding-bottom: 80px;
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
+}
+
+.pagina3-bloco7 .container{
+    background-color: transparent;
+}
