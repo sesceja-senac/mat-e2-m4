@@ -37,6 +37,7 @@ se quiser que fique como era originalmente basta nao declarar a div feedbacks de
  */
 
 var EsquemaDaBru = {
+    modoOriginal:false,
     init: function(){
         
         Array.from(document.querySelectorAll('.esquemaDaBru')).forEach(function(el){
@@ -45,7 +46,7 @@ var EsquemaDaBru = {
             let btsErrados = el.querySelectorAll('.alt-e');
             let feed_positivo = el.querySelector('.f-positivo');
             let feed_negativo = Array.from(el.querySelectorAll('.f-negativo'));
-            let original = true;
+            let original = EsquemaDaBru.modoOriginal;
 
             if(el.querySelector('.feedbacks') == null){
                 original = true;
@@ -64,7 +65,7 @@ var EsquemaDaBru = {
                 el.hideFeedbacks();
                 el.clear();
                 this.classList.add('selected');
-                if(original) this.classList.add('certo');
+                if(original) this.classList.add('eb-certo');
                 $(feed_positivo).fadeIn(200);                
             })
 
@@ -74,7 +75,7 @@ var EsquemaDaBru = {
                     el.hideFeedbacks();
                     el.clear();
                     this.classList.add('selected');
-                    if(original) this.classList.add('errado');
+                    if(original) this.classList.add('eb-errado');
                     if(feed_negativo.length > 1){
                       $(feed_negativo[index]).fadeIn(200);
                     } else  if(feed_negativo.length <=1 && feed_negativo.length > 0)
@@ -103,7 +104,8 @@ var EsquemaDaBru = {
         })
     }
 }
-
+//faz o esquema da bru mostrar o x na resposta errada e o check na certa, muda a cor das alternativas
+EsquemaDaBru.modoOriginal = true
 EsquemaDaBru.init();
 
 var MultiSelect = {

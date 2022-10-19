@@ -52,6 +52,10 @@
 
     position: relative;
     z-index: 2;
+    height: 192px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/02/bg4_div.png);
 }
 
 
@@ -67,7 +71,8 @@
 .pg2-bloco04{
     position: relative;
     background-image: url(../assets/02/bg4.png);
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-attachment:scroll;
     padding-bottom: 80px;
     padding-top: 1px;
