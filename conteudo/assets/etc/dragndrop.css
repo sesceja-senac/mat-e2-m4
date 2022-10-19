@@ -8,7 +8,8 @@
     background-color: #f3943c;
 }
 
-#card-1, #card-2, #card-3, #card-4, #card-5, #card-6 {
+/* #card-1, #card-2, #card-3, #card-4, #card-5, #card-6 { */
+#cardPile .card {
     display: inline-block;
     height: 125px;
     width: 125px;
@@ -25,27 +26,35 @@
 }
 
 #card-1 {
-    background-image: url('../../img/pagina2/pg2-praticar-1.png');
+    background-image: url('../01/ativ1_a.png');
 }
 
 #card-2 {
-    background-image: url('../../img/pagina2/pg2-praticar-2.png');
+    background-image: url('../01/ativ1_b.png');
 }
 
 #card-3 {
-    background-image: url('../../img/pagina2/pg2-praticar-3.png');
+    background-image: url('../01/ativ1_c.png');
 }
 
 #card-4 {
-    background-image: url('../../img/pagina2/pg2-praticar-4.png');
+    background-image: url('../01/ativ1_d.png');
 }
 
 #card-5 {
-    background-image: url('../../img/pagina2/pg2-praticar-5.png');
+    background-image: url('../01/ativ1_e.png');
 }
 
 #card-6 {
-    background-image: url('../../img/pagina2/pg2-praticar-6.png');
+    background-image: url('../01/ativ1_f.png');
+
+}
+#card-7 {
+    background-image: url('../01/ativ1_g.png');
+
+}
+#card-8 {
+    background-image: url('../01/ativ1_e_1.png');
 
 }
 
@@ -55,9 +64,11 @@
 
 .game-descricao {
     background-color: #fff;
-    padding: 20px 0 10px 125px;
+    padding: 20px;
     margin-top: 20px;
     border-radius: 30px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .game-descricao-img {
@@ -67,10 +78,9 @@
 .game-itens-container {
     margin: 0 !important; padding: 25px 0;border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;background-color: #ffbc62;max-width: calc(100% - 24px);margin-left: auto !important;margin-right: auto !important;
 }
-.game-descricao-img img {
-    width: 150px;
-    position: absolute;
-    top: -55px;
+.game-descricao img {
+    height: 100px;
+    width: auto;    
 }
 
 .game-descricao p {
@@ -79,8 +89,9 @@
     font-weight: 500;
     line-height: initial;
     text-align: center;
+    max-width: 600px;
 }
-.game-body #slot-1, .game-body #slot-2, .game-body #slot-3, .game-body #slot-4, .game-body #slot-5, .game-body #slot-6{
+.game-body .ui-droppable {
     height: 125px;
     width: 125px;
     background-color: transparent;
@@ -89,11 +100,14 @@
     display: inline-block;
     margin: 15px;
     text-align: center;
-    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ui-droppable p {
     font-size: 18px;
+    margin-bottom: 0;
 }
 
 #slots .row,
@@ -105,11 +119,6 @@
     margin: 25px 0;
 }
 
-#slot-1,
-#slot-4,
-#slot-3,
-#slot-6,
-#slot-2,
-#slot-5 {
-    border-radius: 20%;
+#slot-5, #slot-6, #slot-7, #slot-8 {
+    border-radius: 50%;
 }

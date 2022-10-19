@@ -2,10 +2,12 @@
     background-image: url('../capa/assets/fundo.png');
     height: 100vh;
     width: 100vw;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: left;
     position: relative;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-color: #5fa4db;
 }
 .titulo-2 {
     height: 100%;
@@ -15,6 +17,9 @@
     top: 0;
     right: -15px;
 }
+.titulo-2 img {
+    width: 100%;
+}
 .titulo {
     background-image: url('../capa/assets/madeira.png');
     height: 130px;
@@ -22,6 +27,11 @@
     position: absolute;
     bottom: 0;
     z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 60px;
 }
 .menu {
     background-image: url('../capa/assets/prancheta.png');
@@ -110,6 +120,53 @@
     position: absolute;
     bottom: 0px;
     right: -40px;
-    z-index: 99;
+    z-index: 15;
     transform: rotate(-26deg);
+}
+
+@media (max-width: 1000px) {
+    .titulo-2 {
+        width: 70%;
+    }
+    #wrapper {
+        background-size: cover;
+    }
+    .menu {
+        bottom: 60px;
+    }
+    .titulo {
+        width: 100%;
+    }
+    .titulo img:first-of-type {
+        width: 70%;
+    }
+    .titulo {
+        z-index: 16;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu {
+        width: 100%;
+        background-image: unset;
+        background-color: #f1f1f1;
+        padding: 0;
+        transform: unset;
+        height: auto;
+        left: 0;
+    }
+    .menu a {
+        transform: unset;
+        margin-left: unset !important;
+        margin: 10px !important;
+    }
+    .caneta {
+        display: none;
+    }
+    .margin-l {
+        margin-left: unset;
+    }
+    .menu a br {
+        display: none;
+    }
 }

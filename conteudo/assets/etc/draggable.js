@@ -20,13 +20,13 @@ function handleCardDrop(event, ui){
         ui.draggable.position( { of: $(this), my: 'left top', at: 'left top' } );
         ui.draggable.draggable( 'option', 'revert', false );
         if( $('.game-body').is(":visible")){
-            $('#bgmodal-passou-'+$(this).attr("data-audio")).modal('show')
+            $('#bgmodal-acertou').modal('show')
             var audio = new Audio('audios/' + $(this).attr("data-audio")+'.mp3');
             audio.play();
             // acertoSom.play()
         }
     }else if($('.game-body').is(":visible")){
-        $('#bgmodal-errou-'+$(this).attr("data-audio")).modal('show')
+        $('#bgmodal-errou').modal('show')
         var audioErro = new Audio('audios/erro.mp3');
             audioErro.play();
         // erroSom.play()
