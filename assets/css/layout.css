@@ -722,6 +722,13 @@ h3, .subtitulo{
     top: 420px;
     right: 0px;
   }
+
+  .pagination{   
+    display: block;
+  }
+  .pagination li{
+    display: inline-block;
+  }
 /*iphones 5 pra baixo da vida*/
 @media screen and (max-width:320px) {
     header.sesc{
@@ -734,6 +741,17 @@ h3, .subtitulo{
     }
 }
 
+
+@media screen and (min-width:2000px){
+    #booklet{
+        width:1920px;
+        position: block;
+        margin: 0 auto;             
+    }
+    html,body{
+        background-color: grey;
+    }
+}
 
 /*large pra cima*/
 

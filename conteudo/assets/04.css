@@ -1,0 +1,185 @@
+div[class ^= pagina4-bloco]{
+    position: relative;
+   
+}
+div[class ^= pagina4-bloco] .container{
+    background-color: transparent;
+}
+
+.pagina4-bloco1{
+    padding-top: 80px;
+    background-image: url(../assets/04/bg1.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 80px;
+   /* box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);*/
+}
+
+.pg04-div1{
+    margin-top: -80px;
+    margin-bottom: -80px;
+    z-index: 3;
+    position: relative;
+}
+
+.pagina4-bloco2{
+    padding-top: 80px;
+    background-image: url(../assets/04/bg2.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 80px;
+   /* box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);*/
+}
+
+[data-bs-toggle="tooltip"]{
+    font-weight: bold;
+    color: #00828A;
+}
+
+
+.pagina4-bloco3{
+    padding-top: 80px;
+    background-image: url(../assets/04/bg3.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 80px;
+   box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
+}
+
+.pg4-vamospraticar{
+    border: 4px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(255,162,63);
+    background: -moz-linear-gradient(180deg, rgba(255,162,63,1) 0%, rgba(255,162,63,1) 14%, rgba(0,128,128,1) 14%, rgba(0,128,128,1) 93%, rgba(255,162,63,1) 93%);
+    background: -webkit-linear-gradient(180deg, rgba(255,162,63,1) 0%, rgba(255,162,63,1) 14%, rgba(0,128,128,1) 14%, rgba(0,128,128,1) 93%, rgba(255,162,63,1) 93%);
+    background: linear-gradient(180deg, rgba(255,162,63,1) 0%, rgba(255,162,63,1) 14%, rgba(0,128,128,1) 14%, rgba(0,128,128,1) 93%, rgba(255,162,63,1) 93%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffa23f",endColorstr="#ffa23f",GradientType=1);
+
+    mask-border-width: 500px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .4);
+}
+.praticar-title{
+    position: relative;
+    padding: 30px;
+    padding-right: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-left: 8%;
+    margin-right: 8%;    
+    font-weight: bold;
+    padding-left: 150px;
+}
+
+.pg4-ico-praticar{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.btn-pg4Atividade{
+    background-image: url(../assets/04/bt1.png);
+    background-color: transparent;
+    border: 0;
+    width: 274px;
+    height: 300px;
+    background-size: contain;
+    background-position: center;
+    display: block;
+    margin: 3rem auto;    
+}
+.btn-pg4Atividade:hover{
+    background-image: url(../assets/04/bt1_hover.png);
+}
+
+.pagina4-bloco4{
+    padding-top: 80px;
+    background-image: url(../assets/04/bg1.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 80px;
+   box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
+}
+
+.pg4-saiba-mais{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 10px 8px 0 4px #FF9500;
+
+}
+
+.pagina4-bloco5{
+    padding-top: 80px;
+    background-image: url(../assets/04/bg3.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1920px;
+    padding-bottom: 80px;
+   box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
+}
+
+
+.pagina4-bloco6{
+    padding-top: 80px;
+    background-image: url(../assets/04/bg1.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 80px;
+   box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
+}
+
+.painel-abas{
+    margin-bottom: 0;
+    margin-left: 0;   
+}
+
+.tab-content {
+    border: 2px solid #00838D;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.pg04-plx{
+    max-width: 15vw;
+    position: absolute;
+    z-index: 10;
+}
+
+.pg04-plx.plx01{
+    bottom: -18%;
+}
+
+.pg04-plx.plx02{
+    right: 0;
+    bottom: -25%;
+}
+
+.pg04-plx.plx03{
+    
+    top: 15%;
+}
+
+.pg04-plx.plx04{
+    right: 0;
+    top: 30%;
+}
+.pg04-plx.plx05{
+    right: 0;
+    top: 60%;
+}
+.pg04-plx.plx06{
+    bottom: 2.5%;
+}
+.pg04-plx.plx07{
+    right: 0;
+    bottom: 25%;
+}

@@ -169,7 +169,14 @@ button.selecionado {
     margin: -30px auto 0 auto;
     border-radius: 20px;
     box-shadow: 2px 2px 3px #333;
-    padding-left: 60px;
+    padding-left: 150px;
+    position: relative;
+    ;
+}
+.pg1-ico-enunciado{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
 }
 
 .caixa-saiba-mais {
@@ -185,7 +192,10 @@ button.selecionado {
 }
 .caixa-saiba-mais::before {
     content: '';
-    background-image: url('../../assets/img/ico-saiba.png');
+    background-image: url('../assets/etc/ico-saibamais.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 109px;
     width: 65px;
     position: absolute;

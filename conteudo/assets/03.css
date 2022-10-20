@@ -75,7 +75,7 @@
     background-image: url(../assets/03/bg4.png);
     background-position: center;
     background-attachment: fixed;
-    background-size: 2000px;
+    background-size: cover;
     padding-bottom: 80px;
     box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
 }
@@ -193,40 +193,40 @@ div[class ^= 'pagina3-bloco']{
     position: relative
 }
 
-.pg04-plx{
+.pg03-plx{
     max-width: 15vw;
     position: absolute;
     z-index: 5;
 }
 
-.pg04-plx.plx01{
+.pg03-plx.plx01{
     bottom: -18%;
 }
 
-.pg04-plx.plx02{
+.pg03-plx.plx02{
     top: 18%;
     right: 0;
 }
 
-.pg04-plx.plx03{
+.pg03-plx.plx03{
     top: 6%;
 }
 
-.pg04-plx.plx04{
+.pg03-plx.plx04{
     top: 15%;
     right: 0;
 }
-.pg04-plx.plx05{
+.pg03-plx.plx05{
     top: 35%;
    
 }
 
-.pg04-plx.plx06{
+.pg03-plx.plx06{
     top: 35%;
     right: 0;
 }
 
-.pg04-plx.plx07{
+.pg03-plx.plx07{
     top: 65%;
     
 }
