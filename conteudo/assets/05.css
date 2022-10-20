@@ -1,0 +1,17 @@
+.pagina5-bloco1{
+    padding-top: 80px;
+    background-image: url(../assets/05/bg.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 80px;
+   box-shadow: 0 -6px 10px rgba(0, 0, 0, .4);
+}
+
+.pagina5-bloco1 .container{
+    background-color: transparent;
+}
+
+.breaker{
+    word-break: break-all;
+}
