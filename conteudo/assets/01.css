@@ -205,6 +205,13 @@ button.selecionado {
     transform: translateY(-50%);
 }
 
+
+@media screen and (max-width:992px){
+    .divisoria-2, .divisoria-3{
+        display: none !important;
+    }
+}
+
 @media (max-width: 600px){
     .game-descricao  {
         flex-direction: column;
@@ -220,4 +227,29 @@ button.selecionado {
     .atv-colunas img {
         max-width: 100%;
     }
+    .pg1-ico-enunciado{
+        position: relative;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .enunciado-container{
+        padding-left: 10px;
+        width: 90%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .caixa-saiba-mais::before{
+        position: relative;
+        left: initial;
+        top: initial;
+        transform: none;
+
+        display: block;
+        margin: 10px auto;
+    }
+    .caixa-saiba-mais{
+        padding-left: 10px
+    }
 }
+

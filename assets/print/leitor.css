@@ -511,8 +511,8 @@ h5 {
   }
 
   /* deixa tudo cinza */
-  .pagina *{
-    filter: grayscale(1);
+  .pagina #booklet, img{
+    filter: grayscale(1) !important;
   }
 p{
 	font-size:12pt;
@@ -847,5 +847,24 @@ iframe, iframe.youtube-pl{
   display: none;
 }
 
+.rellax{
+  display: none !important;
+}
+
+.breaker{
+  word-break:break-all
+}
+
+img.divisoria-1, img.divisoria-2, img.divisoria3{
+  display:none ip !important
+}
 
 
+img[src='assets/01/div1.png'], img[src='assets/01/bg3_div.png'],  img[src='assets/01/bg5_div.png'],
+img[src='assets/02/div1.png'],img[src='assets/03/div1.png'],img[src='assets/03/div2.png'],img[src='assets/04/div1.png'],img[src='assets/04/div2.png']{
+display: none !important;
+}
+
+.modal.fade.no-print{
+  display: none !important;
+}
