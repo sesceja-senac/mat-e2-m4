@@ -6,6 +6,7 @@
     border-radius: 20px;
     margin: 100px auto 30px;
     background-color: #f3943c;
+    position: relative;
 }
 
 /* #card-1, #card-2, #card-3, #card-4, #card-5, #card-6 { */
