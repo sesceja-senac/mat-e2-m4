@@ -730,11 +730,16 @@ h3, .subtitulo{
     display: inline-block;
   }
 /*iphones 5 pra baixo da vida*/
-@media screen and (max-width:320px) {
-    header.sesc{
+
+
+@media screen and (max-width:480px) {
+    header.sesc {
+        background-image: url(../img/cabecalho/cabecalho-xs.png);
         height: 60px;
     }
 }
+
+
 @media screen and (max-width:991px) {
     .bg-sesc{
         background: white;

@@ -19,10 +19,12 @@
     background-position: center;
     background-size: 152px;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .card:hover {
     box-shadow: 5px 5px 6px #333;
+    border: #f3943c solid 4px;
 }
 
 #card-1 {
@@ -121,4 +123,10 @@
 
 #slot-5, #slot-6, #slot-7, #slot-8 {
     border-radius: 50%;
+}
+
+@media screen and (max-width:768px){
+    .game-descricao p {
+        max-width: 500px;
+    }
 }

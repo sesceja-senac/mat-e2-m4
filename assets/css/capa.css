@@ -125,7 +125,99 @@
 }
 
 
+/* INÍCIO Vídeo Intro */
+.backdrop {
+    background-color: rgba(55,55,55, .8);
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.modal-video {
+    background-image: url('../capa/assets/Video-apresentacao-gd.png');
+    width: 1133px;
+    height: 708px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 260px;
+    padding-top: 120px;
+    color: white;
+    font-size: 18px;
+    left: 50%;
+}
+
+.modal-video iframe {
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 15px;
+    max-width: 600px;
+    width:100%;
+}
+
+#fechar-video {
+    position: absolute;
+    top: 60px;
+    right: 200px;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 2px 2px 3px #333;
+    transition-duration: .3s;
+}
+#fechar-video:hover {
+    background-color: #ff8b01;
+    color: white;
+    transition-duration: .3s;
+}
+.botao-video {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botao-video p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+.video-pq {
+    height: 150px;
+    width: 150px;
+    background-image: url('../capa/assets/Video-apresentacao-pq.png'); 
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    padding-left: 29px;
+    padding-top: 23px;
+}
+.img-play {
+    height:85px;
+    width: 85px;
+}
+.video-pq:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+/* FIM Vídeo Intro */
+
+
 @media screen and (max-width:1366px){
+    .modal-video{
+        transform: scale(0.87);
+    }
     .menu{
      
         width: Calc(909px * .7);
@@ -214,6 +306,30 @@
     }
 }
 
+@media (max-width: 820px){
+    .modal-video{
+        transform: scale(1);
+        padding-left: 140px;
+        padding-right: 140px;
+        padding-top: 80px;
+    }
+    .modal-video iframe {
+        height: 240px;
+        width: 426px;
+        background-color: white;
+        border-radius: 15px;
+        margin: 15px auto;
+        display: block;
+    }
+    #fechar-video {
+        top: 24px;
+    }
+    .botao-video {
+        top: 30px;
+        left: 30px;
+    }
+}
+
 @media (max-width: 600px) {
     .menu {
         width: 100%;
@@ -238,5 +354,30 @@
     }
     .menu a br {
         display: none;
+    }
+}
+
+@media (max-width: 480px){
+    .modal-video{
+        background-image: url('../capa/assets/Video-apresentacao-xs.png');
+        transform: scale(1);
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 70px;
+    }
+    .modal-video iframe {
+        height: 180px;
+        width: 320px;
+        background-color: white;
+        border-radius: 15px;
+        margin: 15px auto;
+        display: block;
+    }
+    #fechar-video {
+        top: 15px;
+    }
+    .botao-video {
+        top: 10px;
+        left: 4px;
     }
 }
