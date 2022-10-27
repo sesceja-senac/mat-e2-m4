@@ -253,3 +253,14 @@ button.selecionado {
     }
 }
 
+footer li.active a {
+    color: #fff;
+    background-color: #00838D;
+}
+footer li:hover a {
+    color: #00838D;
+}
+footer a:visited {
+    color: #7a7a7a;
+    background-color: #cccccc;
+}
