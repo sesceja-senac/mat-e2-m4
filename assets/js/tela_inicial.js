@@ -17,16 +17,30 @@ $(document).ready(function() {
       $(".menumob, .main-menu, .botao-video").removeClass('d-none')
     })
 
-    $('.link-capa').on('mouseover pointerover', function(){
-      let cl = this.id.split('_')[1];
-      console.log(cl)
-      $('.main-menu .imgs').removeClass('bg-main capa-01 capa-02 capa-03 capa-04 capa-05')
-      $('.main-menu .imgs').addClass(cl)
+    $('#btn-1').hover(function(){
+      $('.menu').css('background-image', "url('assets/capa/assets/tela_inicial_bt_1.png')")
+    }, function(){
+      $('.menu').css('background-image', "url('assets/capa/assets/tela_inicial_bt_inativo.png')")
     })
-
-    $('.link-capa').on('mouseout pointerout', function(){
-      $('.main-menu .imgs').removeClass('bg-main capa-01 capa-02 capa-03 capa-04 capa-05')
-      $('.main-menu .imgs').addClass('bg-main')
+    $('#btn-2').hover(function(){
+      $('.menu').css('background-image', "url('assets/capa/assets/tela_inicial_bt_2.png')")
+    }, function(){
+      $('.menu').css('background-image', "url('assets/capa/assets/tela_inicial_bt_inativo.png')")
+    })
+    $('#btn-3').hover(function(){
+      $('.menu').css('background-image', "url('assets/capa/assets/tela_inicial_bt_3.png')")
+    }, function(){
+      $('.menu').css('background-image', "url('assets/capa/assets/tela_inicial_bt_inativo.png')")
+    })
+    $('#btn-4').hover(function(){
+      $('.menu').css('background-image', "url('assets/capa/assets/tela_inicial_bt_4.png')")
+    }, function(){
+      $('.menu').css('background-image', "url('assets/capa/assets/tela_inicial_bt_inativo.png')")
+    })
+    $('#btn-5').hover(function(){
+      $('.menu').css('background-image', "url('assets/capa/assets/tela_inicial_bt_5.png')")
+    }, function(){
+      $('.menu').css('background-image', "url('assets/capa/assets/tela_inicial_bt_inativo.png')")
     })
  
 
