@@ -177,6 +177,9 @@
 }
 /* FIM Vídeo Intro */
 
+.menu-mobile {
+    display: none;
+}
 
 @media screen and (max-width:1366px){
     .modal-video{
@@ -247,7 +250,40 @@
 }
 
 @media (max-width: 600px) {
-    
+    .menu {
+        display: none;
+    }
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+    }
+    .menu-mobile a {
+        display: block;
+        background-color: #6d0000;
+        color: white;
+        padding: 15px;
+        margin: 10px auto;
+        width: 80%;
+        border: 2px dashed white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .titulo {
+        top: 250px;
+    }
+    #wrapper {
+        align-items: unset;
+        padding: 25px;
+    }
+    .matematica {
+        bottom: 15px;
+        right: unset;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 300px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px){
