@@ -9,53 +9,84 @@
     position: relative;
     overflow: hidden;    
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 35px;
+    padding-bottom: 55px;
 }
-.preload img, .preload{
+.logo {
     position: absolute;
-    left: -9999px;
+    right: 30px;
+    top: 20px;
 }
+.matematica {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    right: 30px;
+}
+.titulo {
+    position: absolute;
+    left: 180px;
+    top: 180px;
+}
+
 .menu {
     width: 1220px;
     height: 764px;
     background-image: url('../capa/assets/tela_inicial_bt_inativo.png');
+    position: relative;
 }
 
-.menu button {
+.menu a {
     position: absolute;
     background-color: transparent;
 }
-
+#preload-1 {
+    background-image: url('../capa/assets/tela_inicial_bt_1.png');
+}
+#preload-2 {
+    background-image: url('../capa/assets/tela_inicial_bt_2.png');
+}
+#preload-3 {
+    background-image: url('../capa/assets/tela_inicial_bt_3.png');
+}
+#preload-4 {
+    background-image: url('../capa/assets/tela_inicial_bt_4.png');
+}
+#preload-5 {
+    background-image: url('../capa/assets/tela_inicial_bt_5.png');
+}
 #btn-1 {
     height: 100px;
     width: 240px;
-    bottom: 38%;
+    bottom: 35.5%;
 }
 
 #btn-2 {
     height: 100px;
     width: 415px;    
-    bottom: 13%;
-    left: 18.5%;
+    bottom: 6%;
+    left: 12.5%;
 }
 #btn-3 {
     height: 100px;
     width: 240px;
-    left: 39%;
-    top: 25.5%;
+    left: 37%;
+    top: 21%;
 }
 #btn-4 {
     height: 100px;
     width: 220px;
-    right: 16.5%;
-    top: 13.5%;
+    right: 10%;
+    top: 7.5%;
 }
 #btn-5 {
     height: 100px;
     width: 240px;
-    right: 13%;
-    bottom: 31%;
+    right: 5.5%;
+    bottom: 27.5%;
 }
 
 /* INÍCIO Vídeo Intro */
@@ -151,6 +182,16 @@
     .modal-video{
         transform: scale(0.87);
     }
+    .menu {
+        transform: scale(0.6);
+        margin-right: -200px;
+        margin-bottom: -60px;
+    }
+    .titulo {
+        transform: scale(0.7);
+        margin-left: -100px;
+        margin-top: -50px;
+    }
     
 }
 @media screen and (max-width: 1050px){
@@ -193,6 +234,15 @@
     .botao-video {
         top: 30px;
         left: 30px;
+    }
+    .menu {
+        margin-right: -230px;
+        display: block;
+        flex-shrink: 0;
+    }
+    .titulo {
+        left: 35%;
+        transform: scale(0.9);
     }
 }
 
